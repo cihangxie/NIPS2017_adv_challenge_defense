@@ -50,7 +50,7 @@ FLAGS = tf.flags.FLAGS
 
 
 
-def padding_layer_zhishuai(inputs, shape, name=None):
+def padding_layer_iyswim(inputs, shape, name=None):
     h_start = shape[0]
     w_start = shape[1]
     output_short = shape[2]
@@ -113,7 +113,7 @@ def main(_):
         x_input_resize = tf.image.resize_images(x_input, img_resize_tensor, method=tf.image.ResizeMethod.NEAREST_NEIGHBOR)
 
         shape_tensor = tf.placeholder(tf.int32, [3])
-        padded_input = padding_layer_zhishuai(x_input_resize, shape_tensor)
+        padded_input = padding_layer_iyswim(x_input_resize, shape_tensor)
         # 330 is the last value to keep 8*8 output, 362 is the last value to keep 9*9 output, stride = 32
         padded_input.set_shape(
             (FLAGS.batch_size, FLAGS.image_resize, FLAGS.image_resize, 3))
