@@ -1,4 +1,4 @@
-# NIPS_2017_adv_challenge_defense
+# NIPS_2017_adv_defense_challenge
 Utilize randomization to defend adversarial examples. 
 Challenge URL: https://www.kaggle.com/c/nips-2017-defense-against-adversarial-attack
 
