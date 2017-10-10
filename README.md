@@ -12,17 +12,14 @@ The main ideal of the defense is to utilize randomization to defend adversarial 
 2. Very little computation introduced
 3. Compatiable to different networks and different defending methods (i.e., we use randomization + ensemble adversarial training + Inception-Resnet-v2 in our submission)
 
-## Citing this work
-
-```
-@article{xie2017utilize,
-  title={Mitigating adversarial effects through randomization},
-  author={Xie, Cihang and Zhang, Zhishuai and Wang, Jianyu and Ren, Zhou and Yuille, Alan},
-  year={2017}
-}
-```
-
 ## Ensemble adversarial training model
 - http://download.tensorflow.org/models/ens_adv_inception_resnet_v2_2017_08_18.tar.gz
 
+## Team Member
+Cihang Xie (Johns Hopkins University)
+Zhishuai Zhang (Johns Hopkins University)
+Jianyu Wang (Baidu Research)
+Zhou Ren (Snap Inc.)
 
+## Tech Report
+Mitigating adversarial effects through randomization (will be available soon)
