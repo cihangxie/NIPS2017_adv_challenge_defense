@@ -16,10 +16,10 @@ The main ideal of the defense is to utilize randomization to defend adversarial 
 - http://download.tensorflow.org/models/ens_adv_inception_resnet_v2_2017_08_18.tar.gz
 
 ## Team Member
-Cihang Xie (Johns Hopkins University)
-Zhishuai Zhang (Johns Hopkins University)
-Jianyu Wang (Baidu Research)
-Zhou Ren (Snap Inc.)
+- Cihang Xie (Johns Hopkins University)
+- Zhishuai Zhang (Johns Hopkins University)
+- Jianyu Wang (Baidu Research)
+- Zhou Ren (Snap Inc.)
 
 ## Tech Report
 Mitigating adversarial effects through randomization (will be available soon)
