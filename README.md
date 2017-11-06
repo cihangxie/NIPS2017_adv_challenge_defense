@@ -22,4 +22,4 @@ The main ideal of the defense is to utilize randomization to defend adversarial 
 - Zhou Ren (Snap Inc.)
 
 ## Tech Report
-Mitigating adversarial effects through randomization (will be available soon)
+Mitigating adversarial effects through randomization (https://drive.google.com/open?id=1fqcMZA-kC1edHp0mRXeK_0lmvcvbN5DN)
