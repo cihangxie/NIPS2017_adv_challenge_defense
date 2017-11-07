@@ -30,8 +30,10 @@ The main ideal of the defense is to utilize randomization to defend adversarial 
 - Jianyu Wang (Baidu Research)
 - Zhou Ren (Snap Inc.)
 
+## Paper Link
+- https://arxiv.org/pdf/1711.01991.pdf
 
-### Citing this work
+## Citing this work
 
 If you find this work is useful in your research, please consider citing:
 
