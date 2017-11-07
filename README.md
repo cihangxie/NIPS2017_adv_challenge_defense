@@ -40,4 +40,4 @@ If you find this work is useful in your research, please consider citing:
           author={Xie, Cihang and Wang, Jianyu and Zhang, Zhishuai and Ren, Zhou and Yuille, Alan},
           journal={arXiv preprint arXiv:1711.01991},
           year={2017}
-        }
+    }
