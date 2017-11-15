@@ -1,7 +1,7 @@
 # Mitigating Adversarial Effects Through Randomization
 
 This paper proposed utilizing randomization to mitigate adversarial effects. By combining the proposed randomization method with
-an adversarially trained model, it ranked **No.2** among 110 defense teams in the NIPS 2017 adversarial examples defense challenge (https://www.kaggle.com/c/nips-2017-defense-against-adversarial-attack). 
+an adversarially trained model, it ranked **No.2** among 107 defense teams in the NIPS 2017 adversarial examples defense challenge (https://www.kaggle.com/c/nips-2017-defense-against-adversarial-attack). 
 
 
 ## The approach
