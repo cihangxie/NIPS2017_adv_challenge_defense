@@ -30,8 +30,18 @@ The main ideal of the defense is to utilize randomization to defend adversarial 
 - Jianyu Wang (Baidu Research)
 - Zhou Ren (Snap Inc.)
 
+
+## Leaderboard
+
+Our team name is **iyswim**, and our rank is **No.2**.
+
+- https://www.kaggle.com/c/nips-2017-defense-against-adversarial-attack/leaderboard
+
+
 ## Paper Link
+
 - https://arxiv.org/pdf/1711.01991.pdf
+
 
 ## Citing this work
 
