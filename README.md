@@ -1,7 +1,6 @@
 # Mitigating Adversarial Effects Through Randomization
 
-This paper proposed utilizing randomization to mitigate adversarial effects. By combining the proposed randomization method with
-an adversarially trained model, it ranked **No.2** among 107 defense teams in the NIPS 2017 adversarial examples defense challenge (https://www.kaggle.com/c/nips-2017-defense-against-adversarial-attack). 
+This paper proposed to utilize randomization to mitigate adversarial effects (https://arxiv.org/pdf/1711.01991.pdf). By combining the proposed randomization method with an adversarially trained model, it ranked **No.2** among 107 defense teams in the NIPS 2017 adversarial examples defense challenge (https://www.kaggle.com/c/nips-2017-defense-against-adversarial-attack). 
 
 
 ## The approach
@@ -9,6 +8,10 @@ an adversarially trained model, it ranked **No.2** among 107 defense teams in th
 The main ideal of the defense is to utilize randomization to defend adversarial examples:
 - Random Resizing: after pre-processing, resize the original image (size of 299 x 299 x 3) to a larger size, Rnd x Rnd x 3,  randomly, where Rnd is within the range [310, 331). 
 - Random Padding: after resizing, pad the resized image to a new image with size 331 x 331 x 3, where the padding size at left, right, upper, bottom are [a, 331-Rnd-a, b, 331-Rnd-b]. The possible padding pattern for the size Rnd is (331-Rnd+1)^2.
+
+In general, the pipeline is shown below:
+
+![Pipeline](pipeline.png)
 
 
 ## Pros 
@@ -36,11 +39,6 @@ The main ideal of the defense is to utilize randomization to defend adversarial 
 Our team name is **iyswim**, and our rank is **No.2**.
 
 - https://www.kaggle.com/c/nips-2017-defense-against-adversarial-attack/leaderboard
-
-
-## Paper Link
-
-- https://arxiv.org/pdf/1711.01991.pdf
 
 
 ## Citing this work
