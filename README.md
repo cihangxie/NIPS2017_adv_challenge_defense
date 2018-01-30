@@ -45,9 +45,9 @@ Our team name is **iyswim**, and our rank is **No.2**.
 
 If you find this work is useful in your research, please consider citing:
 
-    @article{xie2017mitigating,
+    @inproceedings{xie2017mitigating,
           title={Mitigating Adversarial Effects Through Randomization},
           author={Xie, Cihang and Wang, Jianyu and Zhang, Zhishuai and Ren, Zhou and Yuille, Alan},
-          journal={arXiv preprint arXiv:1711.01991},
-          year={2017}
+          booktitle={International Conference on Learning Representations},
+          year={2018}
     }
